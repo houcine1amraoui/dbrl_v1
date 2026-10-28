@@ -1,0 +1,99 @@
+{
+  "hdeg": {
+    "bil": {
+      "batch_size": 32,
+      "max_shards": null,
+      "num_heads": 1,
+      "overwrite": true
+    },
+    "bse": {
+      "batch_size": 32,
+      "max_shards": null,
+      "num_heads": 1,
+      "overwrite": true
+    },
+    "dbrl": {
+      "batch_size": 32,
+      "embedding_dim": 64,
+      "graph_heads": 1,
+      "graph_self_loops": true,
+      "graph_symmetric": true,
+      "graph_top_k": 15,
+      "gru_layers": 1,
+      "hidden_dim": 64,
+      "max_batches": null,
+      "max_shards": null,
+      "overwrite": true
+    },
+    "e2e_training": {
+      "epochs": 1,
+      "lr": 0.0001
+    },
+    "ebrl": {
+      "batch_size": 32,
+      "max_shards": null,
+      "overwrite": true
+    },
+    "hbf": {
+      "batch_size": 32,
+      "checkpoint": "epoch_0001.pt",
+      "dynamics_hidden_dim": 128,
+      "max_shards": null,
+      "overwrite": true
+    },
+    "mbai": {
+      "batch_size": 32,
+      "fusion_weights": null,
+      "max_shards": null,
+      "overwrite": true
+    }
+  },
+  "models": [
+    {
+      "enabled": true,
+      "name": "gdn",
+      "params": {
+        "heads": 1,
+        "hidden_dim": 64,
+        "topk": 15
+      }
+    },
+    {
+      "enabled": true,
+      "name": "mtad_gat",
+      "params": {
+        "gat_heads": 2,
+        "gru_hidden_dim": 100,
+        "kernel_size": 5
+      }
+    }
+  ],
+  "preprocessing": {
+    "actors_timelines": {
+      "actor1_t1_end": "2022-11-07 23:59:59",
+      "actor1_t1_start": "2022-10-18 00:00:00",
+      "actor1_t2_end": "2022-11-17 23:59:59",
+      "actor1_t2_start": "2022-11-11 00:00:00",
+      "actor2_end": "2022-11-10 23:59:59",
+      "actor2_start": "2022-11-08 00:00:00"
+    },
+    "apply_cleaning": true,
+    "apply_filtering": true,
+    "dataset_folder": "data",
+    "dataset_name": "BRE",
+    "downsample_freq": "1s",
+    "merge_bre_cu": false,
+    "val_ratio": 0.1,
+    "window_shard_size": 8192,
+    "window_size": 30
+  },
+  "project_root_dir": "/workspace/scratch/b3dba90d7cf0/reconstruction_test_workspace",
+  "seed": 42,
+  "v1_validation": {
+    "bootstrap-replicates": 1000,
+    "r1-chunk": 512,
+    "r1-reservoir": 100000,
+    "r2-pairs": 100000,
+    "r3-max": 50000
+  }
+}

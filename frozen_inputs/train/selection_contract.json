@@ -1,0 +1,406 @@
+{
+  "protocol": "bre_train_event_selection_v1",
+  "parent_checkpoint_sha256": "98dd287013098294cb220a869b11a9f22240b3db585bce99b9d292ff5109e67e",
+  "original_selection_sha256": "e29ae4933edf1ee26b560726d637367a8a4e36cd1f934c83c8835e4d2d733e4a",
+  "behavior_report_sha256": "4b247f2a6fd0db380ed0e80d50dce60376bfcea1a15d5ff761996320d0a81b36",
+  "split": "train",
+  "regions": {
+    "update": [
+      0,
+      1143042
+    ],
+    "fit": [
+      1143102,
+      1632960
+    ]
+  },
+  "original_boundary": 1306398,
+  "selection_boundary": 1143072,
+  "fit_fraction": 0.3,
+  "window_size": 30,
+  "targets": [
+    {
+      "channel": "OC-02-S1_contact",
+      "channel_index": 1,
+      "state": "contact_state",
+      "kind": "final_state"
+    },
+    {
+      "channel": "OC-02-S1_contact",
+      "channel_index": 1,
+      "state": "contact_state",
+      "kind": "rise"
+    },
+    {
+      "channel": "OC-02-S1_contact",
+      "channel_index": 1,
+      "state": "contact_state",
+      "kind": "fall"
+    },
+    {
+      "channel": "OC-00-H1_contact_x",
+      "channel_index": 3,
+      "state": "contact_state",
+      "kind": "final_state"
+    },
+    {
+      "channel": "OC-00-H1_contact_x",
+      "channel_index": 3,
+      "state": "contact_state",
+      "kind": "rise"
+    },
+    {
+      "channel": "OC-00-H1_contact_x",
+      "channel_index": 3,
+      "state": "contact_state",
+      "kind": "fall"
+    },
+    {
+      "channel": "OC-01-B3_contact",
+      "channel_index": 38,
+      "state": "contact_state",
+      "kind": "final_state"
+    },
+    {
+      "channel": "OC-01-B3_contact",
+      "channel_index": 38,
+      "state": "contact_state",
+      "kind": "rise"
+    },
+    {
+      "channel": "OC-01-B3_contact",
+      "channel_index": 38,
+      "state": "contact_state",
+      "kind": "fall"
+    },
+    {
+      "channel": "OC-00-U1_contact",
+      "channel_index": 49,
+      "state": "contact_state",
+      "kind": "final_state"
+    },
+    {
+      "channel": "OC-00-U1_contact",
+      "channel_index": 49,
+      "state": "contact_state",
+      "kind": "rise"
+    },
+    {
+      "channel": "OC-00-U1_contact",
+      "channel_index": 49,
+      "state": "contact_state",
+      "kind": "fall"
+    },
+    {
+      "channel": "OC-01-W1_contact",
+      "channel_index": 50,
+      "state": "contact_state",
+      "kind": "final_state"
+    },
+    {
+      "channel": "OC-01-W1_contact",
+      "channel_index": 50,
+      "state": "contact_state",
+      "kind": "rise"
+    },
+    {
+      "channel": "OC-01-W1_contact",
+      "channel_index": 50,
+      "state": "contact_state",
+      "kind": "fall"
+    },
+    {
+      "channel": "OC-00-L1_contact",
+      "channel_index": 59,
+      "state": "contact_state",
+      "kind": "final_state"
+    },
+    {
+      "channel": "OC-00-L1_contact",
+      "channel_index": 59,
+      "state": "contact_state",
+      "kind": "rise"
+    },
+    {
+      "channel": "OC-00-L1_contact",
+      "channel_index": 59,
+      "state": "contact_state",
+      "kind": "fall"
+    },
+    {
+      "channel": "OC-01-HB_contact",
+      "channel_index": 60,
+      "state": "contact_state",
+      "kind": "final_state"
+    },
+    {
+      "channel": "OC-01-HB_contact",
+      "channel_index": 60,
+      "state": "contact_state",
+      "kind": "rise"
+    },
+    {
+      "channel": "OC-01-HB_contact",
+      "channel_index": 60,
+      "state": "contact_state",
+      "kind": "fall"
+    },
+    {
+      "channel": "OC-01-BD_contact",
+      "channel_index": 61,
+      "state": "contact_state",
+      "kind": "final_state"
+    },
+    {
+      "channel": "OC-01-BD_contact",
+      "channel_index": 61,
+      "state": "contact_state",
+      "kind": "rise"
+    },
+    {
+      "channel": "OC-01-BD_contact",
+      "channel_index": 61,
+      "state": "contact_state",
+      "kind": "fall"
+    },
+    {
+      "channel": "A6-00-HW_motion",
+      "channel_index": 7,
+      "state": "motion_activity",
+      "kind": "final_state"
+    },
+    {
+      "channel": "A6-00-HW_motion",
+      "channel_index": 7,
+      "state": "motion_activity",
+      "kind": "rise"
+    },
+    {
+      "channel": "A6-00-HW_motion",
+      "channel_index": 7,
+      "state": "motion_activity",
+      "kind": "fall"
+    },
+    {
+      "channel": "A6-02-SL_motion",
+      "channel_index": 12,
+      "state": "motion_activity",
+      "kind": "final_state"
+    },
+    {
+      "channel": "A6-02-SL_motion",
+      "channel_index": 12,
+      "state": "motion_activity",
+      "kind": "rise"
+    },
+    {
+      "channel": "A6-02-SL_motion",
+      "channel_index": 12,
+      "state": "motion_activity",
+      "kind": "fall"
+    },
+    {
+      "channel": "A6-02-B4_motion",
+      "channel_index": 16,
+      "state": "motion_activity",
+      "kind": "final_state"
+    },
+    {
+      "channel": "A6-02-B4_motion",
+      "channel_index": 16,
+      "state": "motion_activity",
+      "kind": "rise"
+    },
+    {
+      "channel": "A6-02-B4_motion",
+      "channel_index": 16,
+      "state": "motion_activity",
+      "kind": "fall"
+    },
+    {
+      "channel": "A6-01-B3_motion",
+      "channel_index": 20,
+      "state": "motion_activity",
+      "kind": "final_state"
+    },
+    {
+      "channel": "A6-01-B3_motion",
+      "channel_index": 20,
+      "state": "motion_activity",
+      "kind": "rise"
+    },
+    {
+      "channel": "A6-01-B3_motion",
+      "channel_index": 20,
+      "state": "motion_activity",
+      "kind": "fall"
+    },
+    {
+      "channel": "A6-01-B1_motion_x",
+      "channel_index": 24,
+      "state": "motion_activity",
+      "kind": "final_state"
+    },
+    {
+      "channel": "A6-01-B1_motion_x",
+      "channel_index": 24,
+      "state": "motion_activity",
+      "kind": "rise"
+    },
+    {
+      "channel": "A6-01-B1_motion_x",
+      "channel_index": 24,
+      "state": "motion_activity",
+      "kind": "fall"
+    },
+    {
+      "channel": "A6-00-K1_motion_x",
+      "channel_index": 27,
+      "state": "motion_activity",
+      "kind": "final_state"
+    },
+    {
+      "channel": "A6-00-K1_motion_x",
+      "channel_index": 27,
+      "state": "motion_activity",
+      "kind": "rise"
+    },
+    {
+      "channel": "A6-00-K1_motion_x",
+      "channel_index": 27,
+      "state": "motion_activity",
+      "kind": "fall"
+    },
+    {
+      "channel": "A6-00-L1_motion",
+      "channel_index": 31,
+      "state": "motion_activity",
+      "kind": "final_state"
+    },
+    {
+      "channel": "A6-00-L1_motion",
+      "channel_index": 31,
+      "state": "motion_activity",
+      "kind": "rise"
+    },
+    {
+      "channel": "A6-00-L1_motion",
+      "channel_index": 31,
+      "state": "motion_activity",
+      "kind": "fall"
+    },
+    {
+      "channel": "A6-01-B2_motion",
+      "channel_index": 36,
+      "state": "motion_activity",
+      "kind": "final_state"
+    },
+    {
+      "channel": "A6-01-B2_motion",
+      "channel_index": 36,
+      "state": "motion_activity",
+      "kind": "rise"
+    },
+    {
+      "channel": "A6-01-B2_motion",
+      "channel_index": 36,
+      "state": "motion_activity",
+      "kind": "fall"
+    },
+    {
+      "channel": "A6-01-H2_motion",
+      "channel_index": 41,
+      "state": "motion_activity",
+      "kind": "final_state"
+    },
+    {
+      "channel": "A6-01-H2_motion",
+      "channel_index": 41,
+      "state": "motion_activity",
+      "kind": "rise"
+    },
+    {
+      "channel": "A6-01-H2_motion",
+      "channel_index": 41,
+      "state": "motion_activity",
+      "kind": "fall"
+    },
+    {
+      "channel": "A6-02-H3_motion",
+      "channel_index": 48,
+      "state": "motion_activity",
+      "kind": "final_state"
+    },
+    {
+      "channel": "A6-02-H3_motion",
+      "channel_index": 48,
+      "state": "motion_activity",
+      "kind": "rise"
+    },
+    {
+      "channel": "A6-02-H3_motion",
+      "channel_index": 48,
+      "state": "motion_activity",
+      "kind": "fall"
+    },
+    {
+      "channel": "A6-00-K1_motion_y",
+      "channel_index": 53,
+      "state": "motion_activity",
+      "kind": "final_state"
+    },
+    {
+      "channel": "A6-00-K1_motion_y",
+      "channel_index": 53,
+      "state": "motion_activity",
+      "kind": "rise"
+    },
+    {
+      "channel": "A6-00-K1_motion_y",
+      "channel_index": 53,
+      "state": "motion_activity",
+      "kind": "fall"
+    },
+    {
+      "channel": "A6-01-B1_motion_y",
+      "channel_index": 57,
+      "state": "motion_activity",
+      "kind": "final_state"
+    },
+    {
+      "channel": "A6-01-B1_motion_y",
+      "channel_index": 57,
+      "state": "motion_activity",
+      "kind": "rise"
+    },
+    {
+      "channel": "A6-01-B1_motion_y",
+      "channel_index": 57,
+      "state": "motion_activity",
+      "kind": "fall"
+    }
+  ],
+  "total_per_region": 1024,
+  "minimum_quiet_per_region": 256,
+  "maximum_event_per_region": 768,
+  "desired_positive_quota": 32,
+  "support_floor": 20,
+  "episode_rule": "Across all selected channels: consecutive transition rows separated by at most W rows belong to the same episode. At most one window per episode.",
+  "event_window_rule": "First target-specific event per episode, start=event_row-floor(W/2). Complete window and complete episode must fit one guarded region. All selected-channel observations valid.",
+  "quiet_rule": "All selected channels valid, no rise/fall within window or W rows before/after; expanded interval contained within region.",
+  "reservoir_capacity_per_target": 128,
+  "reservoir_seed": 20261035,
+  "selection_seeds": {
+    "update": 20261036,
+    "fit": 20261037
+  },
+  "sampling": "Greedy shared-target quota coverage, deterministic remaining event fill, quiet grid sampled without replacement; no overlap.",
+  "heldout_values_read": false,
+  "training_steps": 0,
+  "limitations": [
+    "Event enrichment changes prevalence; no natural-prevalence claims",
+    "Episodes are operational temporal groups, not annotated activities or proof of independence",
+    "Sensor channels may be correlated",
+    "No validation/test-informed sampling"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "status": "COMPLETE",
+  "protocol": "bre_train_event_selection_v1",
+  "training_steps": 0,
+  "heldout_values_read": false,
+  "support_gate_pass": true,
+  "selected_counts": {
+    "update": {
+      "total": 1024,
+      "events": 525,
+      "quiet": 499
+    },
+    "fit": {
+      "total": 1024,
+      "events": 216,
+      "quiet": 808
+    }
+  },
+  "covered_transition_channels": {
+    "contact_state": [
+      "OC-00-H1_contact_x"
+    ],
+    "motion_activity": [
+      "A6-00-K1_motion_x",
+      "A6-01-H2_motion"
+    ]
+  },
+  "original_artifacts_unchanged": true,
+  "source_and_parent_hashes": {
+    "/workspace/scratch/b3dba90d7cf0/deliverables/bre_behavior_preservation/results/behavior_report.json": "4b247f2a6fd0db380ed0e80d50dce60376bfcea1a15d5ff761996320d0a81b36",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/reconstruction_report.json": "ef39914b35821bc795ebcaac8082bbbe0a303d03f80c432be0b9f9ff788f5a08",
+    "/workspace/scratch/b3dba90d7cf0/deliverables/bre_behavior_preservation/results/support_report.json": "55d34c3abb80d36d968cd50f60cac6b3d124188f449b40fbdc555439afd0bc24",
+    "/workspace/scratch/b3dba90d7cf0/deliverables/bre_behavior_preservation/results/experiment_contract.json": "41a870e979f28247c3f7110ef281eca9df7fc4684875f51ad39cea2685653fe9",
+    "/workspace/scratch/b3dba90d7cf0/deliverables/bre_behavior_preservation/results/fit_targets.npz": "ed88354a2fd866a64da4cb937a19c3c0346e3e1269bae8db499c84b4357573d6",
+    "/workspace/scratch/b3dba90d7cf0/deliverables/bre_behavior_preservation/results/update_targets.npz": "cb893ec74ce5857ffcb9ba22f10aa0f1a6f78d357edc28cbe50bf823bc84040e",
+    "/workspace/scratch/b3dba90d7cf0/deliverables/bre_behavior_preservation/results/update_schedule.json": "92baa9a6267d7129bb2fc26219dcab1e5470076e8997981d11766cf5e19fed68",
+    "/workspace/scratch/b3dba90d7cf0/deliverables/bre_behavior_preservation/results/configuration_snapshot.json": "40059d6cffe5079ef134e7243a6d53d4a868626ba8717aa0f5aa9e988b380b86",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/configuration_snapshot.json": "acc9dd8c2fcc825ab80751837fd3cc0e396150081ace6aeb7e4579e6c562f1af",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/selection.json": "e29ae4933edf1ee26b560726d637367a8a4e36cd1f934c83c8835e4d2d733e4a",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/update_schedule.json": "716ce9a9c2d131e1f26fd4805a154ace9aeddcbcdbf10ca76698fef535e9eb22",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/settings.json": "3db005cf7d984df3173bd4855a777b74634e406298ce9159e9e3c2644fd792cc",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/update_before.npz": "898cc947939c449da44d8cd1fc6ec6263cddc3074d3798919f02ddd8dcedae9b",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/update_before.json": "8a683d896303f060e6debcbd17dad2b87922828f9a4d5c03bfe848c694bea2a7",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/history.json": "1fb4eac5e864487248af97eb3a57f9e979d456204f31fef2dcd2c9399a40fec0",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/update_after.npz": "3dbf3662ee7f6fd2f98a899064bf47c0920922cfb243a1b4602ce131023f81d0",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/update_after.json": "63192b4a0290dd7800b7f104e2b6e6ede990a5850206456e50db8d32b827fe5f",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/calibration_scores.npz": "76614163a4486efe58cc08a7ccd7362522379e75643966dc437cee46fa22c3de",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/calibration_scores.json": "b75c7bc3ea32b386169dd811d1603350bbc8898ba97242e268ed5678569dce40",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/reconstruction_checkpoint.pt": "98dd287013098294cb220a869b11a9f22240b3db585bce99b9d292ff5109e67e",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/calibration.json": "f07ff8390f1f6ccb48a2305d1469f03a9d705e1fffa799bb1f73bd1ee37e202f",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/validation_scores.npz": "6f8f8af39b044cfd1d88ab4fe6054c042ecd055bcffde4f2b3a9317ecdca6008",
+    "/workspace/scratch/b3dba90d7cf0/analysis_bre_reconstruction/20261026T174440Z_fa05f3a4/validation_scores.json": "4e8acf645f540cb354d78fd7d2b1ba71eddaec06df2bbdf43e7a7cccc8c277e3",
+    "/workspace/scratch/b3dba90d7cf0/reconstruction_test_workspace/src/scientific_validation/behavior_preservation/core.py": "5b001b8523728eaaebadd9dbd45c8ca532f548a4cbadcc241649c47faded9cf0",
+    "/workspace/scratch/b3dba90d7cf0/reconstruction_test_workspace/src/scientific_validation/event_selection/core.py": "44f94c67b34ccd2cb453c359b5957ce4c8792a39468d19677e6b1bdfa38167cc",
+    "/workspace/scratch/b3dba90d7cf0/reconstruction_test_workspace/run_v4_bre_event_selection.py": "f3c1f7d696f4e5f39a5dbd62172129958f8428df05437fe377d5ddf38cb98bb4"
+  },
+  "output_hashes": {
+    "training_event_index.npz": "452903951ca903af105bcd650ac84ae96f58eda72a82e86a5d99e6ffe1ab6fce",
+    "support_report.json": "b4dec83f54c192184c52c89ba4be3eb8defd14d1020bb9e6cac2b8e9c1e469aa",
+    "fit_targets.npz": "7eb61375d0349923a683d45c53f0bdae2a3d9a1d07e8d423db6d9ef412bf8449",
+    "update_targets.npz": "d5c27ef099f0a32f0e3402492a40413bbc2be4cf473722600f55416a29601bc5",
+    "selection_contract.json": "191d1f0fa5a28d494c6efa6fdc5af8807ceb399324a7b5bcc40d651eb6d06708",
+    "configuration_snapshot.json": "40059d6cffe5079ef134e7243a6d53d4a868626ba8717aa0f5aa9e988b380b86",
+    "event_selection.json": "23b91d1d4e5b23346501dd6cee537dd917b5d3114ca2190da23cd38177c63768",
+    "census.json": "d46d10ebeeb7182cc2a9a1afed77c3be71ac09481a10adf062dd4e830d9b5ac5"
+  }
+}

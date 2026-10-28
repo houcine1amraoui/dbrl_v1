@@ -1,0 +1,65 @@
+{
+  "protocol": "bre_dbrl_decision_v1",
+  "mode": "verification_only",
+  "prepared_manifest_sha256": "3d34c85214cbd1c6a8cda24b57b7c4f8df8abc5820877c80d13831433b12e3e2",
+  "seeds": [
+    20261041,
+    20261042,
+    20261043
+  ],
+  "updates_per_arm": 1024,
+  "batch_size": 8,
+  "optimizer": {
+    "name": "Adam",
+    "lr": 0.0001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0,
+    "gradient_clipping": null
+  },
+  "trainable_arms": [
+    "temporal",
+    "dbrl"
+  ],
+  "initial_controls": true,
+  "architecture": {
+    "hidden_dim": 64,
+    "embedding_dim": 64,
+    "gru_layers": 1,
+    "dropout": 0.0,
+    "graph_heads": 1,
+    "graph": "dense endpoint-eligible residual context",
+    "decoder": "flatten, Linear(N*64,64), GELU, Linear(64,W*N)"
+  },
+  "loss": "Per-window valid-value reconstruction MSE; window mean; no upper hierarchy or auxiliary objective",
+  "readout": {
+    "ridge": 1.0,
+    "threshold": 0.5,
+    "standardization": "fit-only",
+    "projection": "update-only full-SVD PCA, centered, no whitening, width320"
+  },
+  "thresholds": {
+    "primary_ap_margin": 0.03,
+    "final_state_noninferiority": 0.02,
+    "maximum_undefined_bootstrap_fraction": 0.05
+  },
+  "bootstrap": {
+    "replicates": 1000,
+    "seed": 20261044,
+    "cluster": "source calendar date of window endpoint",
+    "pairing": "same resampled days across methods and seeds; average seed differences, not independent sample pooling"
+  },
+  "selection_report_sha256": "3f085feff56f964ed52007cc19d50a56320edb113fdb0cac3dd541940f9309c5",
+  "evaluation_report_sha256": "bcc985d18b749673310d41f5335a80fd60d5dcaa54a964aa662b31b3983d9c53",
+  "limitations": [
+    "All evaluation periods have informed development",
+    "States/transitions are input-derived proxies, not human activities",
+    "Reconstruction errors are not validated anomaly scores",
+    "Few calendar days limit uncertainty estimates",
+    "Additional graph parameters are not a parameter-matched topology intervention",
+    "Exact raw rules are a reference ceiling, not a learning baseline to outperform"
+  ]
+}

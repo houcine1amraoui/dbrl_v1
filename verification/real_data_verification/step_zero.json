@@ -1,0 +1,44 @@
+{
+  "20261041": {
+    "temporal": {
+      "loss": 0.17679211497306824,
+      "state_sha256": "94c6f9a537dd4c14c514d25bbd6f4ab1f51988db2b01c68d0fb4d38bdef23dac",
+      "encoder_parameters": 17984,
+      "decoder_parameters": 374916
+    },
+    "dbrl": {
+      "loss": 0.17672155797481537,
+      "state_sha256": "8468668ad3e8bd3ae7015865f62735acd10186ac1fa053621744dd7f7af8ee1e",
+      "encoder_parameters": 22272,
+      "decoder_parameters": 374916
+    }
+  },
+  "20261042": {
+    "temporal": {
+      "loss": 0.1741124987602234,
+      "state_sha256": "1d0eac3baedbc8a947b267852a8607caa7e97ba4e547ca4e8afa14709422f6fd",
+      "encoder_parameters": 17984,
+      "decoder_parameters": 374916
+    },
+    "dbrl": {
+      "loss": 0.17407456040382385,
+      "state_sha256": "d3dcb61b04aabd19739654474204cf2eacc7ad8b82b3b4909633c4ce93830e73",
+      "encoder_parameters": 22272,
+      "decoder_parameters": 374916
+    }
+  },
+  "20261043": {
+    "temporal": {
+      "loss": 0.17459282279014587,
+      "state_sha256": "88cd0fed5ffab896d098bcf6ab99e9ec9f3de69cbfb5e836d0c23169f3edf5e6",
+      "encoder_parameters": 17984,
+      "decoder_parameters": 374916
+    },
+    "dbrl": {
+      "loss": 0.1746172457933426,
+      "state_sha256": "930c518e5a0329be9ab68f4601e250b17d7bf57c6fedde0d076cb2d73ae55c40",
+      "encoder_parameters": 22272,
+      "decoder_parameters": 374916
+    }
+  }
+}
