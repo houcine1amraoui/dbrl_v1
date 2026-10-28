@@ -1,0 +1,21 @@
+{
+  "src.scientific_validation.reconstruction.runtime": "reconstruction_test_workspace/src/scientific_validation/reconstruction/runtime.py",
+  "src.scientific_validation.dbrl_decision.inputs": "deliverables/bre_dbrl_decision_v1_1/src/scientific_validation/dbrl_decision/inputs.py",
+  "src.scientific_validation.dbrl_decision.model": "deliverables/bre_dbrl_decision_v1_1/src/scientific_validation/dbrl_decision/model.py",
+  "src.scientific_validation.dbrl_decision.statistics": "deliverables/bre_dbrl_decision_v1_1/src/scientific_validation/dbrl_decision/statistics.py",
+  "src.scientific_validation.behavior_preservation.core": "deliverables/bre_dbrl_decision_v1_1/src/scientific_validation/behavior_preservation/core.py",
+  "src.models.hdeg.dbrl": "reconstruction_test_workspace/src/models/hdeg/dbrl.py",
+  "src.models.hdeg.residual_context_dbrl": "reconstruction_test_workspace/src/models/hdeg/residual_context_dbrl.py",
+  "src.common.graph.graph_builder": "reconstruction_test_workspace/src/common/graph/graph_builder.py",
+  "src.models.hdeg.graph_reasoner": "reconstruction_test_workspace/src/models/hdeg/graph_reasoner.py",
+  "src.data_preparation.bre_windows": "reconstruction_test_workspace/src/data_preparation/bre_windows.py",
+  "src.scientific_validation.reconstruction.data": "reconstruction_test_workspace/src/scientific_validation/reconstruction/data.py",
+  "src.scientific_validation.behavior_preservation.event_manifest": "deliverables/bre_dbrl_decision_v1_1/src/scientific_validation/behavior_preservation/event_manifest.py",
+  "src.models.hdeg.bre_reconstruction": "reconstruction_test_workspace/src/models/hdeg/bre_reconstruction.py",
+  "src.models.hdeg.reconstruction": "reconstruction_test_workspace/src/models/hdeg/reconstruction.py",
+  "src.utils.get_folders_utils": "reconstruction_test_workspace/src/utils/get_folders_utils.py",
+  "src.models.hdeg.bse": "reconstruction_test_workspace/src/models/hdeg/bse.py",
+  "src.models.hdeg.ebrl": "reconstruction_test_workspace/src/models/hdeg/ebrl.py",
+  "src.models.hdeg.bre_hierarchy": "reconstruction_test_workspace/src/models/hdeg/bre_hierarchy.py",
+  "src.models.hdeg.hbf": "reconstruction_test_workspace/src/models/hdeg/hbf.py"
+}
